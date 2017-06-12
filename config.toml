@@ -1,0 +1,48 @@
+baseURL = "http://amasucci.com/"
+languageCode = "en-us"
+title = "amasucci's blog"
+
+[[menu.main]]
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+[permalinks]
+  post = "/post/:year/:month/:day/:slug/"
+  project = "/project/:year/:month/:day/:slug/"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIDAnchors = true
+  extensions = ["hardLineBreak"]
+
+[params]
+  # Warning Keys are case sensitives
+  Subtitle = "blog"
+  description = "Developer technologist"
+  cover = "/img/sfondo.png"
+
+  # Google analytics
+  googleAnalyticsUserID = "UA-xxxxxxxx-x"
+  domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+  disqus = "amasucci-com"
+
+  [params.author]
+    firstName = "Antonio"
+    lastName = "Masucci"
+    gender = "male"
+    userName = "amasucci"
+    image = "//www.gravatar.com/avatar/3f4b8490a22178512e78087a1d53e9ee.png"
+    website = "http://amasucci.com/"
+    twitter = "_amasucci_"
+    github = "amasucci"
+    facebook = "xxxxxxxxx"
+    linkedin = "xxxxxxxxx"
+    gplus = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    gravatarHash = "3f4b8490a22178512e78087a1d53e9ee"
