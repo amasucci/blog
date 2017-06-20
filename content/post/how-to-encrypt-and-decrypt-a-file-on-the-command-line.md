@@ -14,7 +14,7 @@ Soon or later we may need to encrypt files, here a quick way to encrypt/decrypt 
 How to Encrypt
 
 <pre>
-<code class="language-bash">#!/bin/bash
+<code class="bash">#!/bin/bash
 set -eu
 if [ $# -eq 0 ]
   then
@@ -23,7 +23,7 @@ if [ $# -eq 0 ]
     exit 1
 fi
 ORIGINAL_FILE=$1
-echo -n Password: 
+echo -n Password:
 read -s ENCRYPTION_PASSWORD
 echo
 ENCRYPTED_EXTENSION=".enc"
@@ -36,7 +36,7 @@ echo "$ENCRYPTED_FILE created"
 How to Decrypt
 
 <pre>
-<code class="language-bash">#!/bin/bash
+<code class="bash">#!/bin/bash
 set -eu
 
 if [ $# -eq 0 ]

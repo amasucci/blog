@@ -14,7 +14,7 @@ categories = ["tutorials"]
 In several occasions you may need to postpone the execution of some web requests, for performance reasons, timelines in response or resource consumption. In few PHP projects I found very useful the script below. It uses a scripts directory to read all the sh files from. Each file in the scripts directory gets moved to a running directory before execution. At the end of the execution it checks the return value and based on the result moves the sh file to the completed directory or the failed directory. I usually configure cron to schedule this script at intervals or during low trafic hours.
 
 <pre>
-<code class="language-bash">#!/usr/bin/env bash                                                                                                                                                                                                          
+<code class="bash">#!/usr/bin/env bash
 
 echo $$
 PID_FILE="scheduler.pid"
@@ -25,9 +25,9 @@ fi
 
 echo $$ > $PID_FILE
 
-SCRIPT_DIR=${1:-"./scripts"} #default scripts dir is ./scripts                                                                                                                                                               
-LOG_DIR=${2:-"./logs"} #default log dir is ./logs                                                                                                                                                                            
-DONE_DIR=${3:-"./completed"} #default done dir is ./completed                                                                                                                                                                
+SCRIPT_DIR=${1:-"./scripts"} #default scripts dir is ./scripts
+LOG_DIR=${2:-"./logs"} #default log dir is ./logs
+DONE_DIR=${3:-"./completed"} #default done dir is ./completed
 FAILED_PREFIX=${4:-"failed_"}
 RUNNING_DIR=${5:-"./running"} #default running dir is ./running
 COUNTER=0

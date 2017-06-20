@@ -39,8 +39,9 @@
     </script>
     {{ end }}
 {{ end }}
-  
-  <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css"></noscript>
-  <script src="/js/prism.js"></script>
+
+    <noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css"></noscript>
+    <script>hljs.initHighlightingOnLoad();</script>
+
 </body>
 </html>
