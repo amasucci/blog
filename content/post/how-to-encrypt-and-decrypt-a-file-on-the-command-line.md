@@ -3,7 +3,8 @@ date = "2017-05-13T18:12:37+01:00"
 title = "how to encrypt and decrypt a file on the command line"
 image = "/img/lock.jpg"
 description = "Encrypt and decrypt files using bash and OpenSSL"
-tags = ["encryption", "secrets management", "openssl"]
+tags = ["encryption", "secrets management", "openssl", "bash", "devops"]
+categories = ["tutorials"]
 +++
 
 ![Lock image](/img/lock.jpg)
@@ -23,9 +24,8 @@ if [ $# -eq 0 ]
 fi
 ORIGINAL_FILE=$1
 echo -n Password: 
-read -s password
+read -s ENCRYPTION_PASSWORD
 echo
-ENCRYPTION_PASSWORD=$password
 ENCRYPTED_EXTENSION=".enc"
 ENCRYPTED_FILE="${ORIGINAL_FILE}${ENCRYPTED_EXTENSION}"
 openssl enc -aes-256-cbc -in $ORIGINAL_FILE -out $ENCRYPTED_FILE -k "$ENCRYPTION_PASSWORD"
@@ -47,11 +47,9 @@ if [ $# -eq 0 ]
 fi
 ENCRYPTED_FILE=$1
 echo -n Password:
-read -s password
+read -s ENCRYPTION_PASSWORD
 echo
-ENCRYPTION_PASSWORD=$password
 ENCRYPTED_EXTENSION=".enc"
-ENCRYPTION_PASSWORD=$password
 DECRYPTED_FILE="${ENCRYPTED_FILE%.enc}"
 openssl enc -aes-256-cbc -d -in $ENCRYPTED_FILE -k "$ENCRYPTION_PASSWORD" > $DECRYPTED_FILE
 echo "$DECRYPTED_FILE"

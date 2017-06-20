@@ -4,6 +4,8 @@ title = "Schedule multiple bash script with cron"
 image = "/img/scheduler.jpg"
 comments = true
 description = "A simple scheduler written in bash to postpone script execution"
+tags = ["bash", "job scheduling", "devops"]
+categories = ["tutorials"]
 +++
 
 

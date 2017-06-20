@@ -2,6 +2,10 @@ baseURL = "http://amasucci.com/"
 languageCode = "en-us"
 title = "amasucci's blog"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+
 [[menu.main]]
     name = "about"
     pre = "<i class='fa fa-heart'></i>"

@@ -6,7 +6,7 @@ title = "about"
 
 +++
 
-Hi my name is [Antonio Masucci](http://amasucci.com/) and [ninjabc.com](http://ninjabc.com/) is my personal blog, you will find my personal opinion on things such as software engineering, design patterns, antipatterns, continuous delivery, devops and more.
+Hi my name is [Antonio Masucci](http://amasucci.com/) and [amasucci.com](http://amasucci.com/) is my personal blog, you will find my personal opinion on things such as software engineering, design patterns, antipatterns, continuous delivery, devops and more.
 
 As I said it will be my personal opinion, about particular things, in a specific time of my life, and since I generally change my mind about things I will try to keep update my post accordingly.
 
