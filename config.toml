@@ -7,7 +7,7 @@ tag = "tags"
 category = "categories"
 
 [[menu.main]]
-    name = "about"
+    name = "about me"
     pre = "<i class='fa fa-heart'></i>"
     weight = -110
     identifier = "about"

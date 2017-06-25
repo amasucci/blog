@@ -7,8 +7,18 @@ comments = false
 
 +++
 
-Hi my name is *Antonio Masucci* and [amasucci.com](http://amasucci.com/) is my personal blog, you will find my personal opinion on things such as software engineering, design patterns, antipatterns, continuous delivery, devops and more.
+Hi and welcome to my blog ! ! !
 
-As I said it will be my personal opinion, about particular things, in a specific time of my life, and since I generally change my mind about things I will try to keep update my post accordingly.
+My name is Antonio, nice to meet you, I am Italian and I love technologies. 
+Thanks to my father, at the age of four, I started playing with hardware, software and electronics and I am not bored yet.
 
-I also hope to get some help from you, so if you find something wrong (totally or partially), you just want to improve something or you simply disagree, feel free to comment with your opinions.
+I did my BSc and MSc on software engineering and immediately after the graduation I moved to London with my wife (*girlfriend at the time*). I married her a while later, we had a little baby girl, and after few months we took a break from London and we went to live in Italy for one year, in 2017 we moved back to London.
+
+[amasucci.com](http://amasucci.com/) is my personal blog, here you will find posts on _software engineering_ and _software engineering people_.
+
+My interests are things like *design patterns*, *antipatterns*, *continuous delivery*, *devops*, *team culture*, *team building* and *leadership*.
+
+Hope you enjoy it.
+
+*Antonio Masucci*
+father, husband, italian londoner, software engineer, ¿blogger? ...
