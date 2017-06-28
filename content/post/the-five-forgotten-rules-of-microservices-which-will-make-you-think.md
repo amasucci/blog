@@ -3,7 +3,8 @@ date = "2017-06-26T22:44:28+01:00"
 draft = false
 title = "The 5+1 forgotten rules of microservices, that will make you think"
 description = "Are you really getting the benefits or just the burden of a microservices-based architecture?"
-image = "/img/bees-min.jpg"
+image = "/img/bees.jpg"
+imagemin = "/img/bees-min.jpg"
 tags = ["microservices", "best practices"]
 categories = ["considerations"]
 

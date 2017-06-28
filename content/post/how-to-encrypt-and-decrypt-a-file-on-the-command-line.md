@@ -2,6 +2,7 @@
 date = "2017-05-13T18:12:37+01:00"
 title = "How to encrypt and decrypt a file on the command line"
 image = "/img/lock.jpg"
+imagemin = "/img/lock-min.jpg"
 description = "Encrypt and decrypt files using bash and OpenSSL"
 tags = ["encryption", "secrets management", "openssl", "bash", "devops"]
 categories = ["tutorials"]

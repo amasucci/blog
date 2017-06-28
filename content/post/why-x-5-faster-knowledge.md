@@ -4,6 +4,7 @@ draft = false
 title = "Why x 5 = faster knowledge"
 description = "How long does it take to you to feel comfortable treating a particular topic, do you always think you need to know more before you could start giving your opinion?"
 image = "/img/knowledge.jpg"
+imagemin = "/img/knowledge-min.jpg"
 tags = ["people", "leadership", "self improvement"]
 categories = ["considerations"]
 +++

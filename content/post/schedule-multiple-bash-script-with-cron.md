@@ -2,6 +2,7 @@
 date = "2017-05-13T18:02:49+01:00"
 title = "Schedule multiple bash script with cron"
 image = "/img/scheduler.jpg"
+imagemin = "/img/scheduler-min.jpg"
 comments = true
 description = "A simple scheduler written in bash to postpone script execution"
 tags = ["bash", "job scheduling", "devops"]

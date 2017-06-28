@@ -4,6 +4,7 @@ draft = false
 title = "Why microservices should be used as an exploration tool"
 description = "Do you want to introduce a new technology but you don't know how? Microservices can help you"
 image = "/img/exploration-tools.jpg"
+imagemin = "/img/exploration-tools-min.jpg"
 tags = ["microservices", "best practices", "retaining people"]
 categories = ["considerations"]
 +++
