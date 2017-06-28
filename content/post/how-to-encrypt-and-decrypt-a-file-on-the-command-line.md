@@ -13,8 +13,7 @@ Soon or later we may need to encrypt files, here a quick way to encrypt/decrypt 
 
 How to Encrypt
 
-<pre>
-<code class="bash">#!/bin/bash
+<pre><code class="bash">#!/bin/bash
 set -eu
 if [ $# -eq 0 ]
   then
@@ -30,13 +29,11 @@ ENCRYPTED_EXTENSION=".enc"
 ENCRYPTED_FILE="${ORIGINAL_FILE}${ENCRYPTED_EXTENSION}"
 openssl enc -aes-256-cbc -in $ORIGINAL_FILE -out $ENCRYPTED_FILE -k "$ENCRYPTION_PASSWORD"
 echo "$ENCRYPTED_FILE created"
-</code>
-</pre>
+</code></pre>
 
 How to Decrypt
 
-<pre>
-<code class="bash">#!/bin/bash
+<pre><code class="bash">#!/bin/bash
 set -eu
 
 if [ $# -eq 0 ]
@@ -53,5 +50,4 @@ ENCRYPTED_EXTENSION=".enc"
 DECRYPTED_FILE="${ENCRYPTED_FILE%.enc}"
 openssl enc -aes-256-cbc -d -in $ENCRYPTED_FILE -k "$ENCRYPTION_PASSWORD" > $DECRYPTED_FILE
 echo "$DECRYPTED_FILE"
-</code>
-</pre>
+</code></pre>

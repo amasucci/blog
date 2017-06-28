@@ -17,13 +17,13 @@ module.exports = function(grunt) {
                 'bower_components/imagesloaded/imagesloaded.pkgd.min.js',
                 'bower_components/masonry/dist/masonry.pkgd.min.js',
                 'bower_components/fitvids/jquery.fitvids.js',
-                //'bower_components/highlightjs/highlight.pack.min.js',
+                'bower_components/highlightjs/highlight.pack.min.js',
                 'bower_components/nprogress/nprogress.js',
                 'src/js/vendor/gist-embed.min.js'
             ],
             'cssDependencies': [
                 'bower_components/normalize.css/normalize.css',
-                'bower_components/highlightjs/styles/default.css',
+                'bower_components/highlightjs/styles/solarized_dark.css',
                 'bower_components/nprogress/nprogress.css'
             ]
         },

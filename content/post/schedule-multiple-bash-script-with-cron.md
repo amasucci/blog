@@ -63,6 +63,6 @@ else
     echo $COUNTER FILES EXECUTED
 fi
 
-rm -f $PID_FILE</code>
-</pre>
+rm -f $PID_FILE
+</code></pre>
 
