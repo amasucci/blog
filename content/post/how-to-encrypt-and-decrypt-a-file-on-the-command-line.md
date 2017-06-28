@@ -1,6 +1,6 @@
 +++
 date = "2017-05-13T18:12:37+01:00"
-title = "how to encrypt and decrypt a file on the command line"
+title = "How to encrypt and decrypt a file on the command line"
 image = "/img/lock.jpg"
 description = "Encrypt and decrypt files using bash and OpenSSL"
 tags = ["encryption", "secrets management", "openssl", "bash", "devops"]
