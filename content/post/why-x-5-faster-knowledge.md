@@ -22,7 +22,7 @@ Do yourself a favour, stop thinking that things are black or white, that people 
 So next time you discuss something and the *knowledgeable person*  asserts something you disagree with, stop her/him and start drilling down until you understand. It is amazingly surprising how often I found to have a good grasp of the topic and the only problem is communication.
 
 Asking why many times will lead you to the root cause of a problem, according to
-"[the 5 whys technique](https://en.wikipedia.org/wiki/5_Whys)" the answer is 5 just whys away.
+"[the 5 whys technique](https://en.wikipedia.org/wiki/5_Whys)" the answer is just 5 whys away.
 
 The takeaways:
 - Be respectful
