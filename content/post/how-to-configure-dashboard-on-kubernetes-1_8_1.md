@@ -3,7 +3,7 @@ date = "2017-10-22T12:01:51+01:00"
 title = "How to configure dashboard on kubernetes 1.8.1"
 image = "/img/kubernetes-logo.png"
 imagemin = "/img/kubernetes-logo-min.png"
-description = "Encrypt and decrypt files using bash and OpenSSL"
+description = "Step by step notes for kubernetes dashboard setup"
 tags = ["kubernetes", "docker", "bash", "devops"]
 categories = ["tutorials"]
 +++
