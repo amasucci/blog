@@ -232,5 +232,5 @@ kubectl create -f nginx-ingress-controller-config-map.yaml -f nginx-ingress-cont
 ```
 
 This is the third of three articles, the other two are 
+- [How to install Kubernetes on Centos 7.3](../../22/how-to-install-kubernetes-1.8.1-on-centos-7.3/) 
 - [Configure Kubernetes Dashboard](../../22/how-to-configure-dashboard-on-kubernetes-1.8.1/) 
-- [Configure Nginx as Ingress Controller](../../22/how-to-configure-nginx-on-kubernetes-1.8.1-as-ingress-controller/) 
