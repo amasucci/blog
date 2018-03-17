@@ -25,7 +25,7 @@ Theme based from Ghost [Bleak](https://github.com/zutrinken/bleak) by [zuntrinke
 
   # Google analytics
   googleAnalyticsUserID = "UA-xxxxxxxx-x"
-  domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+  googleAdsenseID = "xxxxxxx"
   disqus = "xxxxxxxxx"
 
   [params.author]

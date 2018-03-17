@@ -34,7 +34,7 @@ category = "categories"
 
   # Google analytics
   googleAnalyticsUserID = "UA-75901778-2"
-  domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+  googleAdsenseID = "ca-pub-6496372850821508"
   disqus = "amasucci-com"
 
   [params.author]
