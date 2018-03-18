@@ -3,7 +3,7 @@ date = "2018-03-17T15:05:10+01:00"
 title = "How to generate TLS certificates with cert-manager and Let's Encrypt in Kubernetes"
 image = "/img/certs.jpg"
 imagemin = "/img/certs-min.jpg"
-description = "Kubernetes simplifies management of containerised applications and promotes automation of all the aspects of a deployment. It can do even more if combined with third parties components that's what we are going to do today, we are going to use cert-manager and Let's Encrypt to generate TLS certificates automatically... "
+description = "Kubernetes simplifies management of containerised applications and promotes automation of all the aspects of a deployment. It can do even more if combined with third parties components that's what we are going to do today, we are going to use cert-manager and Let's Encrypt to generate TLS certificates automatically"
 tags = ["kubernetes", "helm", "devops"]
 categories = ["tutorials"]
 +++
