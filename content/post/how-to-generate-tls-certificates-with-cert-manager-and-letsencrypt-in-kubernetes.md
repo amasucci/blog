@@ -32,7 +32,7 @@ Cert-manager will ensure certificates are valid and up to date periodically, and
 
 Copy and paste the following line in your terminal this will deploy cert-manager:
 ```bash
-helm install --namespace kube-system --name cm stable/cert-manager --set ingressShim.extraArgs={--default-issuer-name=letsencrypt-prod,--default-issuer-kind=ClusterIssuer}
+helm install --namespace=kube-system --name=cm stable/cert-manager --set=ingressShim.defaultIssuerKind=ClusterIssuer --set=ingressShim.defaultIssuerName=letsencrypt-prod
 ```
 Note the extra args, `--default-issuer-name` specifies the name of the issuer and `--default-issuer-kind` specifies the type of issuer. You can have two types of issuers:
 - `ClusterIssuer`
@@ -49,7 +49,7 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    server: https://acme-v01.api.letsencrypt.org/directory
+    server: https://acme-v02.api.letsencrypt.org/directory
     email: me@email.com
     privateKeySecretRef:
       name: letsencrypt-prod
