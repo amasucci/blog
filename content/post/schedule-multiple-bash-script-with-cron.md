@@ -7,10 +7,11 @@ comments = true
 description = "A simple scheduler written in bash to postpone script execution"
 tags = ["bash", "job scheduling", "devops"]
 categories = ["tutorials"]
+type = "post"
+featured = "scheduler-min.jpg"
+featuredalt = "scheduler"
+featuredpath = "img"
 +++
-
-
-![Back to the future timer](/img/scheduler.jpg)
 
 In several occasions you may need to postpone the execution of some web requests, for performance reasons, timelines in response or resource consumption. In few PHP projects I found very useful the script below. It uses a scripts directory to read all the sh files from. Each file in the scripts directory gets moved to a running directory before execution. At the end of the execution it checks the return value and based on the result moves the sh file to the completed directory or the failed directory. I usually configure cron to schedule this script at intervals or during low trafic hours.
 

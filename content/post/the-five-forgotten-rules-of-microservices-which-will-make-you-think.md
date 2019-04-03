@@ -7,9 +7,11 @@ image = "/img/bees.jpg"
 imagemin = "/img/bees-min.jpg"
 tags = ["microservices", "best practices"]
 categories = ["considerations"]
-
+type = "post"
+featured = "/bees-min.jpg"
+featuredalt = "bees"
+featuredpath = "img"
 +++
-![Bees](/img/bees-min.jpg)
 
 If I would have to summarise in a single attribute what microservice adoption can give you, I would probably say, that the most important benefit of microservices is *agility*. Agility today is the number one priority for business who want to stay ahead of their competitors. That's why businesses are investing on microservices, not just to have happy hipsters around ;-).
 

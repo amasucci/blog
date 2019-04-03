@@ -6,9 +6,11 @@ imagemin = "/img/ssh-keys-min.jpg"
 description = "Bash script to extract public keys for each member of a team in a specific organization in GitHub"
 tags = ["github", "bash", "devops"]
 categories = ["tutorials"]
+type = "post"
+featured = "ssh-keys-min.jpg"
+featuredalt = "ssh keys"
+featuredpath = "img"
 +++
-
-![How to extract public keys from github enterprise](/img/ssh-keys.jpg)
 
 The following post will explain how to get all the public keys used by members of a team in github.
 This can be useful whenever you want to setup ssh keys to give access to a new machine.

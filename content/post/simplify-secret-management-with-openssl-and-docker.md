@@ -3,12 +3,14 @@ date = "2018-03-18T08:20:30+01:00"
 title = "Simplify secret management with OpenSSL and Docker"
 image = "/img/encrypt-openssl-docker.jpg"
 imagemin = "/img/encrypt-openssl-docker-min.jpg"
-description = "Simplify secret management with OpenSSL and Docker, if you are looking for a secure and easy way to store and access secrets you may find the following post useful"
+description = "If you are looking for a secure and easy way to store and access secrets you may find the following post useful"
 tags = ["encryption", "secrets management", "openssl", "bash", "devops", "docker"]
 categories = ["tutorials"]
+type = "post"
+featured = "encrypt-openssl-docker-min.jpg"
+featuredalt = "encrypt-openssl-docker"
+featuredpath = "img"
 +++
-
-![Secrets OpenSSL Docker](/img/encrypt-openssl-docker.jpg)
 
 Simplify secret management with OpenSSL and Docker, if you are looking for a secure and easy way to store and access secrets you may find the following post useful.
 

@@ -7,8 +7,11 @@ image = "/img/exploration-tools.jpg"
 imagemin = "/img/exploration-tools-min.jpg"
 tags = ["microservices", "best practices", "retaining people"]
 categories = ["considerations"]
+type = "post"
+featured = "/exploration-tools-min.jpg"
+featuredalt = "exploration tools"
+featuredpath = "img"
 +++
-![Bees](/img/exploration-tools.jpg)
 
 How often in your team you had a conversation about this or that technology to adopt? How often the conversation became a massive argument that led to a sort of religious war?
  

@@ -6,6 +6,10 @@ imagemin = "/img/kubernetes-logo-min.png"
 description = "This short tutorial will show you how to configure an Ingress controller based on nginx"
 tags = ["kubernetes", "docker", "bash", "devops", "nginx"]
 categories = ["tutorials"]
+type = "post"
+featured = "kubernetes-logo-min.png"
+featuredalt = "kubernetes-logo"
+featuredpath = "img"
 +++
 
 ## What is an Ingress controller

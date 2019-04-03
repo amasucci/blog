@@ -6,9 +6,11 @@ imagemin = "/img/lock-min.jpg"
 description = "Encrypt and decrypt files using bash and OpenSSL"
 tags = ["encryption", "secrets management", "openssl", "bash", "devops"]
 categories = ["tutorials"]
+type = "post"
+featured = "lock-min.jpg"
+featuredalt = "lock"
+featuredpath = "img"
 +++
-
-![Lock image](/img/lock.jpg)
 
 Soon or later we may need to encrypt files, here a quick way to encrypt/decrypt file from the command line.
 

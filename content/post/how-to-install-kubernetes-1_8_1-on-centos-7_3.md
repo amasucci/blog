@@ -6,9 +6,11 @@ imagemin = "/img/kubernetes-logo-min.png"
 description = "This tutorial walks you through a complete kubernetes cluster setup"
 tags = ["kubernetes", "docker", "bash", "devops"]
 categories = ["tutorials"]
+type = "post"
+featured = "kubernetes-logo-min.png"
+featuredalt = "kubernetes"
+featuredpath = "img"
 +++
-
-![Kubernetes logo](/img/kubernetes-logo.png)
 
 This step by step tutorial is based on the [official kubeadm tutorial](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) and few other resources I found online. Add comments if something is not working or you have problems, I also found very useful the [k8s slack channel](http://slack.k8s.io/). This is the first of three articles, the other two are 
 - [Configure Kubernetes Dashboard](../../22/how-to-configure-dashboard-on-kubernetes-1.8.1/) 

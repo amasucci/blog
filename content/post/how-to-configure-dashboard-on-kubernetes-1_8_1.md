@@ -6,6 +6,10 @@ imagemin = "/img/kubernetes-logo-min.png"
 description = "Step by step notes for kubernetes dashboard setup"
 tags = ["kubernetes", "docker", "bash", "devops"]
 categories = ["tutorials"]
+type = "post"
+featured = "kubernetes-logo-min.png"
+featuredalt = "kubernetes-logo"
+featuredpath = "img"
 +++
 
 ## Dashboard

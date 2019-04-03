@@ -6,9 +6,11 @@ imagemin = "/img/certs-min.jpg"
 description = "Kubernetes simplifies management of containerised applications and promotes automation of all the aspects of a deployment. It can do even more if combined with third parties components that's what we are going to do today, we are going to use cert-manager and Let's Encrypt to generate TLS certificates automatically"
 tags = ["kubernetes", "helm", "devops"]
 categories = ["tutorials"]
+type = "post"
+featured = "certs-min.jpg"
+featuredalt = "certs"
+featuredpath = "img"
 +++
-
-![How to generate certificates with cert-manager and letsencrypt in kubernetes](/img/certs.jpg)
 
 Kubernetes simplifies management of containerised applications and promotes automation of all the aspects of a deployment. 
 It can do even more if combined with third parties components that's what we are going to do today, we are going to use cert-manager and letsencrypt to generate TLS certificates automatically. 
