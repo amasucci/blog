@@ -57,7 +57,7 @@ Now you need the entrypoint.sh, copy the content of the next snippet in `entrypo
 set -eu
 
 if [[ $# -ne 2 ]]; then
-    echo "Usage: $0 &lt;Secret Name&gt; &lt;Decryption Password&gt;"
+    echo "Usage: $0 [Secret Name] [Decryption Password]"
     exit 1
 fi
 
@@ -100,19 +100,19 @@ $bash <>
 You should be able to see a new directory `vaults` with a mysql_password file inside. Everything is ready for the Docker image to be built:
 
 ```bash
-$bash <> docker build . -t secret-box:latest
+$bash > docker build . -t secret-box:latest
 ending build context to Docker daemon  10.24kB
 Step 1/7 : FROM alpine:3.5
 ..
 ..
 Successfully built 0efa296aa899
-$bash <> 
+$bash > 
 ```
 
 To test it:
 ```bash
-$bash <> export decryption_password=super_secret_password
-$bash <> docker run --rm secret-box mysql_password ${decryption_password}
+$bash > export decryption_password=super_secret_password
+$bash > docker run --rm secret-box mysql_password ${decryption_password}
 P455W0Rd_!
 ```
 
