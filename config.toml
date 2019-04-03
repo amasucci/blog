@@ -18,7 +18,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "Blog on software engineering"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "amasucci.com"
   # Sets where "View More Posts" links
@@ -26,7 +26,7 @@ canonifyURLs = true
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
-  dynamicTitles        = true
+  dynamicTitles        = false
   # Sets RSS icons to appear on the sidebar with the social media buttons
   rssAppearAtTop       = true
   rssAppearAtBottom    = true
