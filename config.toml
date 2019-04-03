@@ -163,7 +163,7 @@ canonifyURLs = true
   codepen          = ""
   # Visual Art Communities
   deviantart       = ""
-  flickr           = "antmas83"
+  flickr           = "30980323@N08"
   behance          = ""
   dribbble         = ""
   # Publishing Communities
@@ -198,4 +198,4 @@ canonifyURLs = true
   orcid            = ""
   #researchgate     = "example"
   # Email
-  email            = "example"
+ # email            = "example"
