@@ -96,7 +96,7 @@ canonifyURLs = true
 
   paragraph = "Hi I am Antonio Masucci and this is my blog <i class='fa fa-hand-peace-o'></i>"
 
-  about     = "Welcome to my blog, take a look around and let me know what you think by leaving comments or using the contacts page!"
+  about     = "Welcome to my blog, take a look around and let me know what you think by leaving comments or using the <a href='./contact'>contact page</a>!"
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
@@ -163,7 +163,7 @@ canonifyURLs = true
   codepen          = ""
   # Visual Art Communities
   deviantart       = ""
-  flickr           = "example"
+  flickr           = "antmas83"
   behance          = ""
   dribbble         = ""
   # Publishing Communities
@@ -191,8 +191,8 @@ canonifyURLs = true
   twitter          = "_amasucci_"
   skype            = ""
   snapchat         = ""
-  pinterest        = "example"
-  telegram         = "example"
+  #pinterest        = "example"
+  #telegram         = "example"
   vine             = ""
   googlescholar    = ""
   orcid            = ""
