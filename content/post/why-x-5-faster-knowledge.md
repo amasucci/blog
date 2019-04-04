@@ -8,9 +8,9 @@ imagemin = "/img/knowledge-min.jpg"
 tags = ["people", "leadership", "self improvement"]
 categories = ["considerations"]
 type = "post"
-featured = "/img/knowledge.jpg"
+featured = "knowledge.jpg"
 featuredalt = "knowledge"
-featuredpath = "date"
+featuredpath = "img"
 +++
 
 During my career, as student and as professional, many times I found people that I considered more knowledgeable than me on particular topic reveal themselves not that knowledgeable. Does it happen to you as well?
