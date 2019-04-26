@@ -1,14 +1,14 @@
 +++
 date = "2019-04-10T10:06:46+01:00"
 title = "Helm alternative: versioned configuration and deployments in kubernetes"
-image = "/img/2019/04/10/kubernetes-logo.png"
-imagemin = "/img/kubernetes-logo-min.png"
+image = "/img/2019/04/10/containers_on_ship.jpg"
+imagemin = "/img/containers_on_ship.jpg"
 description = "How to use Spring Cloud Config features to version deployments' configurations"
 tags = ["kubernetes", "docker", "spring", "devops"]
 categories = ["tutorials"]
 type = "post"
-featured = "kubernetes-logo-min.png"
-featuredalt = "kubernetes-logo"
+featured = "containers_on_ship.jpg"
+featuredalt = "containers-on-ship"
 featuredpath = "img/2019/04/10"
 +++
 
