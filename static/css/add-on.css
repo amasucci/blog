@@ -4,3 +4,6 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   within the formating given.
 */
+body, input, select, textarea {
+  font-family: 'avenir next', avenir, sans-serif;
+}
