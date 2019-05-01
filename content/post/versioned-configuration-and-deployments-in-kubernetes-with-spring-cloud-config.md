@@ -35,7 +35,7 @@ and their first reaction generally is:
 
 >***"Oh no, I don't use Spring..."*** or ***"Oh no no, my services are written in Go not Java"***
 
-**THIS IS NOT ABOUT JAVA**, this solution *works* for any type of deployments, among other things that are Spring/Java specific, *Spring Cloud Config* offers:
+**THIS IS NOT ABOUT JAVA**, this solution *works* for any type of deployments. Among other things that are Spring/Java specific, *Spring Cloud Config* offers:
 
 - a template engine over a REST Api
 - a way to version configuration (based on **Git**)
