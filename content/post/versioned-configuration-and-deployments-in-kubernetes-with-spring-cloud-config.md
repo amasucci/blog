@@ -64,7 +64,7 @@ Sold??? Let's do it then.
 Now I am going to describe how to use **Spring Cloud Config** in a Kubernetes Cluster to orchestrate deployments and keep *secrets* secret. Spring cloud config uses Git as default backed and this means that the history of every single config change and deployment will be stored (and consequently versioned) in Git.
 
 ### Before you start
-Familiarity with CD concepts will be usefull to understand the reasoning behind this solution. Other things you need are 30 / 60 minutes of your time and a Kubernetes *"cluster"* (minikube, k3s, microk8s, eks, aks, gke, etc...). </br>
+Familiarity with CD concepts will be useful to understand the reasoning behind this solution. Other things you need are 30 / 60 minutes of your time and a Kubernetes *"cluster"* (minikube, k3s, microk8s, eks, aks, gke, etc...). </br>
 Additional requirements:
 - Java runtime enviroment
 - Code editor
