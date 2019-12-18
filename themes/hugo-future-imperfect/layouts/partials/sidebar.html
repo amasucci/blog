@@ -33,7 +33,7 @@
   <section class="recent-posts">
     <div class="mini-posts">
       <header>
-        <h3>Recent Posts</h3>
+        <h3>More Posts</h3>
       </header>
       <div class="posts-container">
         {{ $.Scratch.Set "recentPosts" .Site.Pages }}
@@ -44,7 +44,10 @@
           {{ $.Scratch.Set "postLimit" 5 }}
         {{ end }}
 
-        {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+        {{ $all_posts := where ($.Scratch.Get "recentPosts") "Type" "post" }}
+        {{ $remaining := sub (len $all_posts) ($.Scratch.Get "postLimit") }}
+        {{ $more_posts := where ($.Scratch.Get "recentPosts") "Type" "post" | last $remaining }}
+        {{ range first ($.Scratch.Get "postLimit") $more_posts }}
           <article class="mini-post">
             <header>
               <h3>

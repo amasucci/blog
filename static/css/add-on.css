@@ -7,3 +7,38 @@
 body, input, select, textarea {
   font-family: 'avenir next', avenir, sans-serif;
 }
+
+header div.title h2 a {
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+header div.title p {
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 980px) {
+  .post header .title {
+    margin: 0px;
+  }
+  .post > header .meta {
+    margin: 0px;
+  }
+
+  .post > header {
+    padding-top: 0.25em;
+  }
+}
+
+article.post header  div.title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button.big {
+  padding: 0 2em;
+}
+
+article.post footer ul.stats {
+  padding-left: 25px;
+}
