@@ -21,7 +21,7 @@
             <div id="content">
                 {{ .Content }}
                 <div class="contact-container">
-                  <form id="contact-form" action="{{ .Params.emailservice }}" method="post" center width="300px">
+                  <form id="contact-form" action="{{ .Params.emailservice }}" method="POST" center width="300px">
                   <h4>Replies Typically Within 24 Hours.</h4>
                   <fieldset>
                    <input placeholder="{{ .Params.contactname }}" type="text" name="name" tabindex="1" required autofocus>
@@ -32,12 +32,20 @@
                   <fieldset>
                    <textarea placeholder="{{ .Params.contactmessage}}" name="message" tabindex="3" required></textarea>
                   </fieldset>
-                  <fieldset>
-                    {{ if .Site.Params.googleRecaptchaSiteKey }}
-                        {{with .Site.Params.googleRecaptchaSiteKey }}
-                            <button name="submit" class="g-recaptcha button" data-sitekey='{{.}}' data-callback='onSubmit' type="submit" id="contact-submit" tabindex="4" value="Send">Submit</button>
+                    {{ if .Params.googleRecaptchaSiteKey }}
+                        {{with .Params.googleRecaptchaSiteKey }}
+                    <div class="g-recaptcha" data-sitekey='{{.}}'></div>
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                    <script>
+                        function onSubmit(token) {
+                            document.getElementById("contact-form").submit();
+                        }
+                    </script>
                         {{ end }}
                     {{ end }}
+                  
+                  <fieldset>
+                    <button name="submit" class="button" data-callback='onSubmit' type="submit" id="contact-submit" tabindex="4" value="Send">Submit</button>
                   </fieldset>
               </form>
             </div>
