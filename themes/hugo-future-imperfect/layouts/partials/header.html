@@ -50,6 +50,16 @@
             </script>
             {{ end }}
         {{ end }}
+        {{ if .Site.Params.googleRecaptchaSiteKey }}
+            {{with .Site.Params.googleRecaptchaSiteKey }}
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <script>
+                function onSubmit(token) {
+                    document.getElementById("contact-form").submit();
+                }
+            </script>
+            {{ end }}
+        {{ end }}
         {{ template "_internal/schema.html" . }}
         {{ template "_internal/google_news.html" . }}
 

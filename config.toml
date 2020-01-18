@@ -7,6 +7,7 @@ paginate = 3
 disqusShortname = "amasucci-com"
 googleAnalytics = "UA-75901778-2"
 googleAdsenseID = "ca-pub-6496372850821508"
+googleRecaptchaSiteKey = "6Lf4hdAUAAAAAGuuXQEkHSBLBiXzjiCz_D376gWs"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
