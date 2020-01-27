@@ -18,4 +18,5 @@ My interests are things like *cloud*, *design patterns*, *antipatterns*, *contin
 
 Hope you enjoy it and thanks for reading!
 
-*Antonio Masucci* father, husband, italian londoner, software engineer, ¿blogger? ...
+*Anto*,
+_father, husband, italian londoner, software engineer, ¿blogger? ..._
