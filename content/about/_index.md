@@ -8,7 +8,7 @@ comments = false
 +++
 
 Hi, I'm **Antonio Masucci** (anto), nice to meet you and welcome to my blog. 
-[amasucci.com](https://amasucci.com/) is my personal blog, here you will find posts on _software engineering_, _people_, _psychology_, _self improvement_ and probably a good ammount of random stuff.
+[amasucci.com](https://amasucci.com/) is my personal blog, here you will find posts on _software engineering_, _people_, _psychology_, _self improvement_ and probably a good amount of random stuff.
 
 Everything started when I was four and my father walked in with our first PC (an Olivetti M24), since then I started playing with hardware, software and electronics and I am not bored yet.
 
