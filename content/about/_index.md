@@ -7,16 +7,14 @@ comments = false
 
 +++
 
-Hi and welcome to my blog ! ! !
+Hi, I'm **Antonio Masucci** (anto), nice to meet you and welcome to my blog. 
+[amasucci.com](https://amasucci.com/) is my personal blog, here you will find posts on _software engineering_, _people_, _psychology_, _self improvement_ and probably a good ammount of random stuff.
 
-My name is Antonio, nice to meet you, I am Italian and I love software technologies. 
-Thanks to my father, at the age of four, I started playing with hardware, software and electronics and I am not bored yet.
+Everything started when I was four and my father walked in with our first PC (an Olivetti M24), since then I started playing with hardware, software and electronics and I am not bored yet.
 
-I did my BEng and MEng on software engineering and immediately after the graduation I moved to London with my wife (*girlfriend at the time*). I married her a while later, we had a little baby girl, and after few months we took a break from London and we went to live in Italy for one year, in 2017 we moved back to London.
+I was so fascinated by computers that I did my BEng and MEng on software engineering and immediately after the graduation I moved to the UK with my wife (*girlfriend at the time*), to find my dream job (I am still looking for it...). 
 
-[amasucci.com](https://amasucci.com/) is my personal blog, here you will find posts on _software engineering_ and _software engineering people_.
-
-My interests are things like *design patterns*, *antipatterns*, *continuous delivery*, *devops*, *team culture*, *team building* and *leadership*.
+My interests are things like *cloud*, *design patterns*, *antipatterns*, *continuous delivery*, *devops*, *team culture*, *team building* and *leadership*.
 
 Hope you enjoy it and thanks for reading!
 
