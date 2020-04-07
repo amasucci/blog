@@ -14,7 +14,7 @@ featuredpath = "img"
 
 ## What is an Ingress controller
 
-An ingress controller is component in the kubernetes cluster that manages the trafic coming into the cluster. Through ingress configurations you can define the rules to access the containers in you pod. For more info refer to the official [documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/#what-is-ingress).
+An ingress controller is component in the kubernetes cluster that manages the traffic coming into the cluster. Through ingress configurations you can define the rules to access the containers in you pod. For more info refer to the official [documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/#what-is-ingress).
 
 ### Default backend
 
