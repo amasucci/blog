@@ -5,7 +5,7 @@ theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "amasucci-com"
-googleAnalytics = "UA-75901778-2"
+googleAnalytics = "G-0CB5JW2080"
 googleAdsenseID = "ca-pub-6496372850821508"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
