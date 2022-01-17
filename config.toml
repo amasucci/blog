@@ -67,9 +67,9 @@ canonifyURLs = true
 
   # options for highlight.js (version, additional languages, and theme)
   disable_highlight = false # set to true to disable Highlight
-  highlightjsVersion = "9.11.0"
+  highlightjsVersion = "11.4.0"
   highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-  highlightjsLang = ["r", "yaml", "css", "java", "bash", "shell", "javascript", "dockerfile"]
+  highlightjsLang = ["r", "go", "yaml", "css", "java", "bash", "scala", "shell", "kotlin", "javascript", "dockerfile", "sql"]
   highlightjsTheme = "github"
   MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
   MathJaxVersion = "2.7.1"
