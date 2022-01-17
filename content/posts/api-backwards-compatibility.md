@@ -17,7 +17,7 @@ featuredpath = "img/2022/01/13/"
 
 Designing APIs is non-trivial, especially because, at design time we have limited information about their use and consumption.
 
-Today we are going to discuss about APIs, Backward and Forward Compatibility... and how to version an API in case there is a need for it.
+Today we are going to talk about APIs, Backwards and Forwards Compatibility... and how to bump the version of an API in case there is a need for it.
 
 ## Practical example
 
