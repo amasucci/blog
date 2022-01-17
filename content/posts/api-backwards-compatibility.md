@@ -233,7 +233,7 @@ describe('/POST tweet', () => {
   it('it should return the feed', (done) => {
     chai.request('http://localhost:3000')
       .post('/feed')
-      .send({username: 'Anto', tweet: "Hi 👋 from OutOfDevOps", **hash_tag: "#hi"**})
+      .send({username: 'Anto', tweet: "Hi 👋 from OutOfDevOps", hash_tag: "#hi"})
 ...
 ```
 
@@ -363,8 +363,8 @@ Two common ways of versioning APIs are:
 **Path-based versioning -** when the version of the api is defined as part of the path:
 
 ```bash
-/**v1**/feed
-/**v2**/feed
+/v1/feed
+/v2/feed
 ```
 
 **Header based versioning** - can be done using custom headers:
@@ -397,9 +397,7 @@ Designing APIs is hard, nailing it at the first attempt it’s even harder. So w
 As software engineers, our job is to minimise the risks of changes and today we went through some of the most common techniques to do that.
 
 {{< rawhtml >}}
-<figure style="white-space:pre-wrap;display:flex;background: rgba(241, 241, 239, 1);border-radius: 3px;padding: 1rem;" id="f9fabd1f-5b46-4239-bedd-c622fa8f6eb5"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">--------</span></div></figure>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
 <figure style="white-space:pre-wrap;display:flex;background: rgba(241, 241, 239, 1);border-radius: 3px;padding: 1rem;"><div style="font-size:1.5em"><span class="icon">🌯</span></div><div style="width:100%"> The takeaway: backward compatible changes are obviously preferred but not always possible. If a breaking change is needed, consider Expand and Contract for situations where you can execute the contract phase, and “bump” the version otherwise.</span></div></figure>
 {{< /rawhtml >}}
+
+Comment for questions or suggestions, bye 👋.
