@@ -5,8 +5,7 @@ theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "amasucci-com"
-googleAnalytics = "G-0CB5JW2080"
-googleAdsenseID = "ca-pub-6496372850821508"
+googleAnalytics = "UA-75901778-2"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
@@ -23,6 +22,7 @@ canonifyURLs = true
   navbarTitle          = "amasucci.com"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/post/"
+  googleAdsenseID = "ca-pub-1762366814132075"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
