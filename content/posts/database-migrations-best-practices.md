@@ -17,9 +17,11 @@ featuredpath = "img/2022/01/23/"
 
 Updating your application from time to time requires deeper changes that may affect the data layer. When you have to touch the data and your database, it’s always important to consider the impact of changes and how to minimise the risks.
 
-For what we are going to talk today, code is not strictly necessary but it can help, so I am going to use it as supporting material for today’s video, plus I wanted to play a bit with Kotlin.
+For what we are going to talk today, code is not strictly necessary but it can help, plus I wanted to play a bit with Kotlin.
 
-Ok so let me show you the code first,  I created a service using Kotlin and Spring Boot.
+If you want you can watch the video I mead on youtube [Database Migrations Best Practices - Using Liquibase Kotlin Spring Boot](https://www.youtube.com/watch?v=4N2MvU0m8LM)
+
+Ok so let me show you the code first, I created a service using Kotlin and Spring Boot.
 
 The service is a simple ReST µservice that accepts and stores events in a database, the database structure is managed with `Liquibase`.
 
@@ -93,7 +95,7 @@ import org.springframework.data.repository.CrudRepository
 interface EventRepository : CrudRepository<Event, String>{}
 ```
 
-`EventRepository` is an interface for the `Event` `[Data Class](https://kotlinlang.org/docs/data-classes.html)`:
+`EventRepository` is an interface for the `Event` [Data Class](https://kotlinlang.org/docs/data-classes.html):
 
 ```java
 package com.outofdevops.analytics
@@ -149,9 +151,7 @@ In this file we create a table named `event`with two columns `id` and `name`.
 
 As you can imagine you can use this to create multiple tables, and structure the database in the way you prefer.
 
-Now this quick intro was needed to give you some context, in the previous video (that you can find linked [here](https://www.youtube.com/watch?v=EpC6s2tisNY&t=4s)):
-
-I discussed `backward` and `forward` compatibility when designing APIs. So now we want to see how changes that affect the data layer can be handled. As for the API changes to databases can be Backwards-compatible or Backwards-incompatible.
+Now this quick intro was needed to give you some context, in the previous article [API Design - Backwards and Forwards Compatibility](https://amasucci.com/posts/api-backwards-compatibility/) (you can also watch the [video on YouTube](https://www.youtube.com/watch?v=EpC6s2tisNY&t=4s)), I discussed `backward` and `forward` compatibility when designing APIs. So now we want to see how changes that affect the data layer can be handled. As for the API changes to databases can be Backwards-compatible or Backwards-incompatible.
 
 ## Backwards Compatible changes
 
@@ -205,7 +205,7 @@ databaseChangeLog:
             oldColumnName: name
 ```
 
-When we apply this change, Liquibase doesn’t fail but our service will fail as soon we start hitting it with requests.
+When we apply this change, Liquibase doesn’t fail but our service will fail as soon we start hitting it with requests. This happens because our service doesn't know anything about the new column name and when it tries to read or write events from/to the database it fails.
 
 ## How do we apply this type of changes?
 
@@ -217,9 +217,9 @@ A common way is to create a multistep change:
 4. Change the code to only use the new column name
 5. Drop the old column
 
-This is just an example and steps may differ depending on your specific use case and technologies. But here are some best practices that are more generic.
+This is just an example and steps may differ depending on your specific use case and technologies. So, instead of focussing on specific example I think there is more value in understanding the principles. Here are some best practices that are more generic.
 
-## Best practices
+## Best practices for database migrations
 
 Here are some best practices for database migrations:
 
@@ -230,4 +230,4 @@ Here are some best practices for database migrations:
 - **Coordinate Database changes with backup schedules**, ideally we would like to execute the DB schema changes immediately after a backup
 - **Wait before dropping**, make sure you have enough confidence in the change you just applied. Monitor performance and statistics before and then wait for the next backup and then drop.
 
-Ok that’s it... Comment if you have questions, like, subscribe and see you soon.
+Ok that’s it... 📝 Comment if you have questions, 👍🏻 like, ✍🏻 subscribe and 👋🏻 see you soon.
