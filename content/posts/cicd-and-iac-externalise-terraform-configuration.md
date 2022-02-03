@@ -1,5 +1,5 @@
 +++
-date = "2022-01-23T22:10:34+01:00"
+date = "2022-02-03T18:00:34+01:00"
 draft = false
 title = "CICD and IaC - How to Externalise the terraform configuration - Ep.1"
 description = "Using YAML to define terraform resources attributes and get automatic validation"
