@@ -13,7 +13,7 @@ featuredalt = "CICD and IaC ithout breaking"
 featuredpath = "img/2022/02/03/"
 +++
 
-# Dockerising Terraform
+# Externalise Terraform Configuration
 
 This article is part of a miniseries. In the miniseries I will show with practical examples how to apply concepts of CI/CD to IaC, we are going to see how to create independent immutable artifacts for our IaC. How to package them and how to test their deployment.
 
