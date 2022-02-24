@@ -92,9 +92,9 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Antonio Masucci"
+  header    = "Anto"
 
-  paragraph = "Hi I am Antonio Masucci and this is my blog <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "Hi I am Anto and this is my blog <i class='fa fa-hand-peace-o'></i>"
 
   about     = "Welcome to my blog, take a look around and let me know what you think by leaving comments or using the <a href='/contact'>contact page</a>!"
   # This appears at the top of the sidebar above params.intro.header.
